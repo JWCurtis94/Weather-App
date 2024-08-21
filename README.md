@@ -19,3 +19,8 @@ This project is a responsive Weather Website built using **JavaScript**, **HTML*
 
 ## 📸 Screenshots
 <!-- Add screenshots of your project here -->
+
+## 🔧 Usage
+- Enter a city name in the search bar.
+- Click the search button or press enter to fetch weather data.
+- View the current weather information displayed on the page.
