@@ -12,3 +12,24 @@ searchButton.addEventListener('click', () => {
 
     if (city === '')
         return;
+
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
+        .then(response => response.json())
+        .then(json => {
+            if (json.cod === '404') {
+                container.style.height = '550px';
+                weatherBox.style.visibility = 'hidden';
+                weatherDetails.style.visibility = 'hidden';
+                error404.style.visibility = 'visible';
+                error404.classList.add('active');
+                return;
+            }
+
+            error404.style.visibility = 'hidden';
+            error404.classList.remove('active');
+
+            const image = document.querySelector('.weather-box img');
+            const temperature = document.querySelector('.weather-box .temperature');
+            const description = document.querySelector('.weather-box .description');
+            const humidity = document.querySelector('.humidity span');
+            const wind = document.querySelector('.wind span');
