@@ -1,5 +1,6 @@
 # Weather Website
 ![Screenshot 2024-08-21 160837](https://github.com/user-attachments/assets/6f896f63-ec75-4ec2-9190-610df9aedc7a)
+![Screenshot 2024-08-21 220834](https://github.com/user-attachments/assets/1f5a4663-bf61-42d6-881e-94454624a9e0)
 
 ## 🌦️ About
 This project is a responsive Weather Website built using **JavaScript**, **HTML**, and **CSS**. The application allows users to search for current weather conditions in any city around the world. It fetches data from a weather API and displays temperature, humidity, wind speed, and more in a user-friendly interface.
