@@ -15,7 +15,7 @@ This project is a responsive Weather Website built using **JavaScript**, **HTML*
 - **HTML5**: For creating the structure of the website.
 - **CSS3**: For styling the website and making it visually appealing.
 - **JavaScript**: For fetching data from the weather API and dynamically updating the UI.
-- **Weather API**: [OpenWeatherMap](https://openweathermap.org/api) (or any other API you're using).
+- **Weather API**: https://openweathermap.org/api.
 
 ## 📸 Screenshots
 <!-- Add screenshots of your project here -->
