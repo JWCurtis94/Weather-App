@@ -1,8 +1,14 @@
 # Weather Website
-<!-- You can add a screenshot or logo of your website here -->
+
 
 ## 🌦️ About
 This project is a responsive Weather Website built using **JavaScript**, **HTML**, and **CSS**. The application allows users to search for current weather conditions in any city around the world. It fetches data from a weather API and displays temperature, humidity, wind speed, and more in a user-friendly interface.
+
+## 🔎 UX Design
+
+![Screenshot 2024-08-21 153556](https://github.com/user-attachments/assets/2606fab4-18f2-457d-b872-549e748fd659)
+
+
 
 ## 🚀 Features
 - **Real-time Weather Data**: Get up-to-date weather information for any city.
@@ -17,10 +23,12 @@ This project is a responsive Weather Website built using **JavaScript**, **HTML*
 - **JavaScript**: For fetching data from the weather API and dynamically updating the UI.
 - **Weather API**: https://openweathermap.org/api.
 
-## 📸 Screenshots
-<!-- Add screenshots of your project here -->
+## 🔧 Testing
 
-## 🔧 Usage
+![Screenshot 2024-08-20 120204](https://github.com/user-attachments/assets/bd7032ab-5f47-4353-952e-d77a9dd3ed1b)
+![Screenshot 2024-08-20 120131](https://github.com/user-attachments/assets/6cdacce4-8d4e-40b2-98ba-cb2060fbfc79)
+
+## ✈️ Usage
 - Enter a city name in the search bar.
 - Click the search button or press enter to fetch weather data.
 - View the current weather information displayed on the page.
