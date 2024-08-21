@@ -7,15 +7,16 @@ const cityHide = document.querySelector('.city-hide');
 
 searchButton.addEventListener('click', () => {
 
-    const APIKey = 'b99ccba921cc90a842cd466fe4d0e135';
+    const APIKey = 'dbbb61d002144d0b19a65df76247f448';
     const city = document.querySelector('.search-box input').value.trim();
 
     if (city === '')
         return;
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
-        .then(response => response.json())
-        .then(json => {
+    .then(response => response.json())
+    .then(json => {
+
             if (json.cod === '404') {
                 container.style.height = '550px';
                 weatherBox.style.visibility = 'hidden';
