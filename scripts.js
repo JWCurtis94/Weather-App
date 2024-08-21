@@ -33,3 +33,43 @@ searchButton.addEventListener('click', () => {
             const description = document.querySelector('.weather-box .description');
             const humidity = document.querySelector('.humidity span');
             const wind = document.querySelector('.wind span');
+
+            switch (json.weather[0].main) {
+                case 'Clear':
+                    image.src = 'images/clear.png';
+                    break;
+
+                case 'Rain':
+                    image.src = 'images/rain.png';
+                    break;
+
+                case 'Snow':
+                    image.src = 'images/snow.png';
+                    break;
+
+                case 'Clouds':
+                    image.src = 'images/cloud.png';
+                    break;
+
+                case 'Haze':
+                    image.src = 'images/haze.png';
+                    break;
+
+                default:
+                    image.src = '';
+            }
+
+            temperature.innerHTML = `${parseInt(json.main.temp)}<span>°C</span>`;
+            description.innerHTML = `${json.weather[0].description}`;
+            humidity.innerHTML = `${json.main.humidity}%`;
+            wind.innerHTML = `${parseInt(json.wind.speed)}Km/h`;
+
+            container.style.height = '590px';
+            weatherBox.style.visibility = 'visible';
+            weatherDetails.style.visibility = 'visible';
+            weatherBox.classList.add('active');
+            weatherDetails.classList.add('active');
+
+        });
+
+});
