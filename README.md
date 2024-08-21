@@ -1,4 +1,6 @@
 # Weather Website
+![Screenshot 2024-08-21 160837](https://github.com/user-attachments/assets/6f896f63-ec75-4ec2-9190-610df9aedc7a)
+
 
 
 ## 🌦️ About
