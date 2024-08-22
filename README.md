@@ -46,31 +46,31 @@ To streamline my workflow, I use Trello to categorize tasks based on their impor
 - Drop down menu when searching location
 
 ## 💻 Resources
-- Balsamiq
+- ### Balsamiq
 Balsamiq was used to produce the wireframes in the design phase.
-- Git
+- ### Git  
 Git was used for version control
-- Github
+- ### Github  
 GitHub was used to store the code and allow collaboration on the project.
-- Google Fonts
+- ### Google Fonts  
 Google Fonts was used for the custom fonts
-- Google Chrome Dev Tools
+- ### Google Chrome Dev Tools  
 Used to troubleshoot and test design ideas and styling.
-- Google Lighthouse
-used to test performance of the website
-- Favicon
-used to generate the favicon
-- W3 Schools
-used to look up syntax for HTML and CSS
-- Stack Overflow
-used for queries around coding
-- Perplexity
-used to provide sources to generate text for the website
-- Chat GPT
-used for syntax errors and help with spelling
-- Pexels
-used for copyright free images
-- W3C HTML validator
-used to validate the HTML
-- W3 Jigsaw
-used to validate the CSS
+- ### Google Lighthouse  
+Used to test performance of the website
+- ### Favicon  
+Used to generate the favicon
+- ### W3 Schools  
+Used to look up syntax for HTML and CSS
+- ### Stack Overflow  
+Used for queries around coding
+- ### Perplexity  
+Used to provide sources to generate text for the website
+- ### Chat GPT  
+Used for syntax errors and help with spelling
+- ### Pexels  
+Used for copyright free images
+- ### W3C HTML validator  
+Used to validate the HTML
+- ### W3 Jigsaw  
+Used to validate the CSS
