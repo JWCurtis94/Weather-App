@@ -26,7 +26,7 @@ As demonstrated in the images below, my website successfully passes all validati
 ![Screenshot 2024-08-20 120131](https://github.com/user-attachments/assets/6cdacce4-8d4e-40b2-98ba-cb2060fbfc79)
 ![Screenshot 2024-08-22 101024](https://github.com/user-attachments/assets/fcdbc8a0-e308-49b4-860f-3ec8be6533e6)
 ![Screenshot 2024-08-22 100429](https://github.com/user-attachments/assets/69888062-c169-44a0-9bc0-701f7004e131)
-
+![Screenshot 2024-08-22 104221](https://github.com/user-attachments/assets/dee441a3-e17c-44e3-b628-4644de099794)
 
 ## 📚 User Stories
 To streamline my workflow, I use Trello to categorize tasks based on their importance. By leveraging Trello’s color-coding system, I can easily distinguish between high-priority and lower-priority items. This method helps in efficiently managing and prioritizing tasks, ensuring a more organized and productive workflow.
@@ -38,6 +38,12 @@ To streamline my workflow, I use Trello to categorize tasks based on their impor
 - Enter a city name in the search bar.
 - Click the search button or press enter to fetch weather data.
 - View the current weather information displayed on the page.
+
+## Future Features
+- Dynamic weather background
+- Time of search location
+- Location icon to show day/night
+- Drop down menu when searching location
 
 ## 💻 Resources
 - Balsamiq
