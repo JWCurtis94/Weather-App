@@ -1,5 +1,7 @@
+/* Google font import */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+/* Reset and applies font */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* centers content and adds background */
 body {
   display: flex;
   justify-content: center;
@@ -18,6 +21,7 @@ body {
   overflow: hidden;
 }
 
+/* container styling */
 .container {
   position: relative;
   width: 400px;
@@ -32,6 +36,7 @@ body {
   transition: height .6s ease;
 }
 
+/* Search box layout */
 .search-box {
   position: relative;
   width: 100%;
@@ -40,12 +45,14 @@ body {
   align-items: center;
 }
 
+/* Search Icon styling */
 .search-box i {
   position: absolute;
   left: 10px;
   font-size: 28px;
 }
 
+/* Input field styling */
 .search-box input {
   position: absolute;
   width: 100%;
@@ -61,11 +68,13 @@ body {
   padding: 0 48px 0 42px;
 }
 
+/* Placeholder styling */
 .search-box input::placeholder {
   color: #fff;
   text-transform: capitalize;
 }
 
+/* Search button styling */
 .search-box button {
   position: absolute;
   right: 0;
@@ -81,11 +90,13 @@ body {
   transform: translateY(-13px);
 }
 
+/* outline of box centered */
 .weather-box {
   text-align: center;
   margin: 40px 0;
 }
 
+/* Hide elements by default */
 .weather-box,
 .weather-details,
 .not-found {
@@ -93,12 +104,14 @@ body {
   visibility: hidden;
 }
 
+/* Show elements when active */
 .weather-box.active,
 .weather-details.active,
 .not-found.active {
   visibility: visible;
 }
 
+/* Slide in weather box and not found elements */
 .weather-box .box,
 .not-found .box {
   transform: translateY(-100%);
@@ -111,10 +124,12 @@ body {
   transition-delay: .6s;
 }
 
+/* Slide in weather info */
 .weather-box .box .info-weather {
   transform: translateY(-120%);
 }
 
+/* Show weather and details when container is active */
 .container.active .weather-box .box .info-weather,
 .container.active .weather-details .humidity .info-humidity,
 .container.active .weather-details .wind .info-wind {
@@ -122,10 +137,12 @@ body {
   transition: transform 1s ease;
 }
 
+/* Style weather image */
 .weather-box img {
   width: 60%;
 }
 
+/* Style temperature */
 .weather-box .temperature {
   position: relative;
   font-size: 64px;
@@ -134,18 +151,21 @@ body {
   margin: 20px 0 6px -30px;
 }
 
+/* Style temperature unit */
 .weather-box .temperature span {
   position: absolute;
   font-size: 24px;
   margin-left: 4px;
 }
 
+/* Style weather description */
 .weather-box .description {
   font-size: 22px;
   font-weight: 500;
   text-transform: capitalize;
 }
 
+/* Position and layout for weather details */
 .weather-details {
   position: absolute;
   bottom: 40px;
@@ -155,6 +175,7 @@ body {
   display: flex;
 }
 
+/* Layout humidity and wind details */
 .weather-details .humidity,
 .weather-details .wind {
   display: flex;
@@ -163,6 +184,7 @@ body {
   transform: translateY(-100%);
 }
 
+/* Slide in humidity and wind details when active */
 .weather-details.active .humidity,
 .weather-details.active .wind {
   transform: translateY(0%);
@@ -170,12 +192,14 @@ body {
   transition-delay: 1.2s;
 }
 
+/* Hide humidity and wind info by default */
 .weather-details .humidity .info-humidity,
 .weather-details .wind .info-wind {
   transform: translateY(-100%);
   overflow: hidden;
 }
 
+/* Align humidity and wind text */
 .weather-details .humidity {
   padding-left: 20px;
   justify-content: flex-start;
@@ -186,22 +210,26 @@ body {
   justify-content: flex-end;
 }
 
+/* Style icons in weather details */
 .weather-details i {
   font-size: 56px;
   margin-right: 10px;
 }
 
+/* Style spans in weather details */
 .weather-details span {
   display: inline-block;
   font-size: 22px;
   font-weight: 500;
 }
 
+/* Style paragraphs in weather details */
 .weather-details p {
   font-size: 14px;
   font-weight: 500;
 }
 
+/* Position and style not found section */
 .not-found {
   position: absolute;
   top: 0;
@@ -211,20 +239,24 @@ body {
   margin-top: 110px;
 }
 
+/* Style not found image */
 .not-found img {
   width: 65%;
 }
 
+/* Style not found text */
 .not-found p {
   font-size: 22px;
   font-weight: 500;
   margin-top: 12px;
 }
 
+/* Hide city element */
 .city-hide {
   display: none;
 }
 
+/* Position cloned info elements */
 #clone-info-weather,
 #clone-info-humidity,
 #clone-info-wind {
@@ -232,21 +264,25 @@ body {
   transform: translateY(-100%);
 }
 
+/* Animate cloned weather info */
 #clone-info-weather .weather {
   transform: translateY(120%);
   transition: transform 1s ease, opacity 0s;
   transition-delay: 0s, 2s;
 }
 
+/* Hide cloned weather info if inactive */
 .weather-box:not(.active) #clone-info-weather .weather {
   opacity: 0;
   transition-delay: 0s;
 }
 
+/* Slide in cloned weather info */
 .active-clone#clone-info-weather .weather {
   transform: translateY(0%);
 }
 
+/* Animate cloned humidity and wind info */
 #clone-info-humidity span,
 #clone-info-wind span {
   transform: translateY(100%);
@@ -258,6 +294,7 @@ body {
   transform: translateY(0%);
 }
 
+/* Style footer */
 footer {
   position: absolute;
   bottom: 0;
@@ -269,11 +306,13 @@ footer {
   font-size: 14px;
 }
 
+/* Style footer links */
 footer a {
   color: #f39c12;
   text-decoration: none;
 }
 
+/* Underline links on hover */
 footer a:hover {
   text-decoration: underline;
 }
