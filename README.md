@@ -1,4 +1,5 @@
 # Weather Website
+-https://jwcurtis94.github.io/Weather-App/
 ![Screenshot 2024-08-21 220834](https://github.com/user-attachments/assets/1f5a4663-bf61-42d6-881e-94454624a9e0)
 
 ## 🌦️ About
@@ -44,6 +45,7 @@ To streamline my workflow, I use Trello to categorize tasks based on their impor
 - Time of search location
 - Location icon to show day/night
 - Drop down menu when searching location
+- Able to click the pinpoint icon to have the website automatically search your location
 
 ## 💻 Resources
 - ### Balsamiq
@@ -74,3 +76,5 @@ Used for copyright free images
 Used to validate the HTML
 - ### W3 Jigsaw  
 Used to validate the CSS
+- ### jshint   
+Used for javascript validation
